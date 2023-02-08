@@ -1,0 +1,11 @@
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: votestore-pvc
+  namespace: vote
+spec:
+  accessModes: Read
+  capacity:
+    storage: 400Mi
+
