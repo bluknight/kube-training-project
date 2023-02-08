@@ -6,7 +6,5 @@ metadata:
   namespace: vote
   resourceVersion: 1
 spec:
-  capacity: 1Gi
-  hostPath:
-    hostPathVolumeSource:
-      path: /var/tmp
+  capacity:
+    storage: 1Gi
