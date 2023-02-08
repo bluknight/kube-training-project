@@ -6,7 +6,7 @@ metadata:
   namespace: vote
 spec:
   accessModes:
-    - Read
+    - ReadOnlyMany
   volumeMode: Filesystem
   resources:
     requests:
