@@ -4,3 +4,9 @@ kind: PersistentVolume
 metadata:
   name: votestore
   namespace: vote
+  resourceVersion: 1
+spec:
+  capacity: 1Gi
+  hostPath:
+    hostPathVolumeSource:
+      path: /var/tmp
