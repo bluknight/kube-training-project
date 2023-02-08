@@ -5,7 +5,9 @@ metadata:
   name: votestore-pvc
   namespace: vote
 spec:
-  accessModes: Read
-  capacity:
-    storage: 400Mi
-
+  accessModes:
+    - Read
+  VolumeMode: Filesystem
+  resources:
+    requests:
+      storage: 400Mi
