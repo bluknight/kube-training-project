@@ -7,7 +7,7 @@ metadata:
 spec:
   accessModes:
     - Read
-  VolumeMode: Filesystem
+  volumeMode: Filesystem
   resources:
     requests:
       storage: 400Mi
